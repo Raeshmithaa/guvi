@@ -1,12 +1,12 @@
-r= int(input(""))
-p=r
-w=0
-while r!=0:
+w= int(input(""))
+q=w
+l=0
+while w!=0:
     
-    r=r%10
-    w=w+r**3
-    r=r//10
-if w==p:
+    d=w%10
+    l=l+d**3
+    w=w//10
+if l==q:
     print("yes")
 else:
     print("no")
