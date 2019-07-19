@@ -1,9 +1,9 @@
-a=int(input("enter the 1stvalue"))
-b=int(input("enter the 2ndvalue"))
-c=int(input("enter the 3ndvalue"))
-if(a>b) and (a>c):
-    print("a is greater")
-elif(b>a) and (b>c):
-    print("b is greater") 
+r=int(input("enter the 1stvalue"))
+a=int(input("enter the 2ndvalue"))
+e=int(input("enter the 3ndvalue"))
+if(r>a) and (r>e):
+    print("r is greater")
+elif(a>r) and (a>e):
+    print("a is greater") 
 else:
-    print("c is greater")
+    print("e is greater")
