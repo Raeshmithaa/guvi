@@ -1,5 +1,6 @@
-r = int (input(" "))
-b = 1
-for x in range (1,r+1):
-    b = b*l
-print(b)
+
+r=int(input())
+f=1
+for i in range(1,(r+1)):
+     f=f*i
+print(f)
