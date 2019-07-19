@@ -1,10 +1,11 @@
-w,r = map(int,input().split())
-for j in range(w,r):
-    temp = j
-    v = 0
-    while temp > 0:
-        d = temp % 10
-        v += digit ** 3
-        temp //= 10
-    if j == v:
-        print(j,end=" ")
+a,b=input().split()
+a=int(b)
+b=int(b)
+for i in range(a,b):
+  sum=0
+  temp=i
+  while(temp>0):
+     sum=sum+(temp%10)**3
+     temp=temp//10
+  if(sum==i):
+     print(i,end=" ")
